@@ -1,5 +1,29 @@
-recordings/
+# Dependencies
 node_modules/
-.env
-models/
 wakeword/.venv/
+
+# Environment
+.env
+.env.*
+
+# Generated audio
+recordings/
+
+# Models
+models/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Build output
+dist/
+
+# IDE
+.vscode/
